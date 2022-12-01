@@ -1,0 +1,269 @@
+/*#id              .classe*/
+*{
+    margin: 0vh;
+    padding: 0vh;
+}
+body,ul{
+    background-color: #222222;
+    text-decoration:none;
+    list-style: none;
+    padding: 0vw;
+    font-family: 'Inter', sans-serif;
+}
+
+li{
+    text-decoration:none;
+    list-style: none;
+    padding: 1vw;
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    display:flex;
+    background-color: #222222;
+    padding: 0vw;
+    align-items: center;
+}
+#logo{
+display: flex;
+width: 20vw;
+height: 15vh;
+left: 1vh;
+right: 1vh;
+top: 10vw;
+margin-right: 10vw;
+}
+a{
+    
+    color: #F4C430;
+}
+#titulo{
+    font-family: 'Inter', sans-serif;
+    color: #F4C430;
+    width: 30vw;
+    align-items: center;
+    text-align: center;
+}
+
+#nav{
+    display: inline-flex;
+
+}
+
+.cat{
+    background-color: #F4C430;
+    text-decoration: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+
+.line{
+    background-color: #F4C430;
+    height: 0.5vh;
+    border: none;
+}
+.anuncio{
+
+    background-color: #000;
+    display: flex;
+    width: 60vw;
+    height: 60vh;
+    margin: auto;
+    align-items: center;
+}
+
+#foto {
+    display: flex;
+    padding: 0vw;
+    width: 30vw;
+    height: 60vh;
+    align-items: center;
+    margin: auto;
+}
+.sus{
+
+    display: flex;
+    height: 39vh;
+    width: 16vw;
+    display: inline;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    align-items: center;
+
+}
+#p{
+    color:#F4C430;
+}
+
+.links{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    display: flex;
+    height: 6vh;
+    width: 20vw;
+    margin-left: 5vw;
+    align-items: center;
+
+}
+.in{
+    margin: 0vw;
+    height: 44vh;
+    width: 21vw;
+    display: inline-block;
+    
+}
+.h1{
+    color: #F4C430;
+}
+h1{
+    color: crimson;
+}
+h2{
+    color: #F4C430;
+}
+p{
+    color: aquamarine;
+}
+div {
+    border: #f4f4f4 3px solid;
+    margin-bottom: 6vh;
+    width: 50vw;
+}
+#jogos{
+    border: 0;
+    text-align: justify;
+}
+
+img{
+    display: flex;
+    width: 50vw;
+}
+/*div de busca*/
+
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+  }
+  
+  #divBusca img{
+    float:left;
+    width: 30vw;
+  }
+  /**/
+
+@media (min-width: 650px) and (max-width: 1200px) {
+
+    
+
+    #titulo {
+        font-family: 'Inter', sans-serif;
+        color: #F4C430;
+        display: flex;
+        align-items: center;
+        margin-inline: 10vh;
+    }
+    img{
+        width: 50vw;
+    }
+
+       .in {
+        display: inline-table;
+        
+       }
+       .sus{
+           width: 40vw;
+       }
+       .links{
+           width: 40vw;
+       }
+
+       .anuncio{
+
+        color: aliceblue;
+        width: 60vw;
+        height: 60vh;
+        
+       }
+       .foto{
+
+        width: 40vw;
+
+       }
+      }
+
+
+@media (max-width: 700px) {
+
+    #titulo {
+        font-family: 'Inter', sans-serif;
+        color: #F4C430;
+        display: flex;
+        align-items: center;
+        margin-inline: 12vh;
+    }
+    img{
+        width: 50vw;
+    }
+    
+
+    #foto {
+        display: flex;
+        padding: 0vw;
+        width: 64vw;
+        height: 40vh;
+        align-items: center;
+        margin: auto;
+    }
+    
+
+    .in {
+     display: grid;
+     grid-column: auto;
+     
+    }
+    .sus{
+        width: 70vw;
+    }
+    .links{
+        width: 70vw;
+    }
+
+    .anuncio {
+        color: aliceblue;
+        width: 85vw;
+        height: 45vh;
+    }
+    
+       .foto{
+    
+        width: 35vw;
+    
+       }
+    
+
+   }
