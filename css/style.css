@@ -109,6 +109,7 @@ a{
 }
 #jogos{
     color: #fff;
+    border: 0vh;
 }
 .h1{
     color: #F4C430;
@@ -124,7 +125,8 @@ p{
 }
 div{
     border: #000 0.5vh solid;
-    display: table-cell;
+    display: block;
+    
 }
 
 
