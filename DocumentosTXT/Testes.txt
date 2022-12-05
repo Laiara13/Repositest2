@@ -1,0 +1,36 @@
+
+// const fetchfreetoplay = () => {
+
+//     const url = '/v2/project/44056/items/game?limit=50&locale=en&country=US'
+//     .then(response => response.json())
+//     .then(games => {
+//         console.log(games)
+//     }) 
+// fetch(url)
+// }
+
+// fetchfreetoplay()
+
+
+
+
+
+
+    // }).then((resp)=>{
+
+    //     resp.data.forEach(user => {
+    //         let divUser = document.createElement("div");
+    //         let divFoto = document.createElement("div");
+    //         divFoto.setAttribute("class","foto")
+    //         let divIdent= document.createElement("div");
+    //         divIdent.setAttribute("class","ident");
+    //         let img=document.createElement("img");
+    //         img.setAttribute
+
+
+    //             }
+    //         );
+    //     }
+    // );
+
+https://github.com/WilliamDosSantos/search-bar-JavaScript/blob/main/script.js

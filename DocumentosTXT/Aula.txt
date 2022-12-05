@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Usuários</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div id="users">
+            
+
+        </div>
+
+    </main>
+    
+</body>
+<script src="./js/script.js"></script>
+</html>
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+css
+imagem
+JavaScript
+Aula.txt
+index1.html
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    width:100vw;
+    height: 15vh;
+    border-bottom: 2px solid #999;
+}
+main{
+    width:100vw;
+}
+#users{
+    width:80vw;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    padding:2rem;
+}
+
+.user{
+    background-color:#eee;
+     height: 20vh;
+     margin-left:5px;
+}
+.foto{
+    border-bottom: 1px solid #777;
+}
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+fetch('https://reqres.in/api/users?page=2').then((result)=>{
+        return result.json();
+    }).then((resp)=>{
+        resp.data.forEach(user => {
+            let divUser = document.createElement("div");
+            let divFoto = document.createElement("div");
+            divFoto.setAttribute("class","foto")
+            let divIdent= document.createElement("div");
+            divIdent.setAttribute("class","ident");
+            let img=document.createElement("img");
+            img.setAttribute
+
+            
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Usuários</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div id="users">
+            
+
+        </div>
+
+    </main>
+    
+</body>
+<script src="./js/script.js"></script>
+</html>
+Candido Luciano de Farias20:43
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    width:100vw;
+    height: 15vh;
+    border-bottom: 2px solid #999;
+}
+main{
+    width:100vw;
+}
+#users{
+    width:80vw;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    padding:2rem;
+}
+
+.user{
+    background-color:#eee;
+     height: 20vh;
+     margin-left:5px;
+}
+.foto{
+    border-bottom: 1px solid #777;
+}
+fetch('https://reqres.in/api/users?page=2').then((result)=>{
+        return result.json();
+    }).then((resp)=>{
+        resp.data.forEach(user => {
+            let divUser = document.createElement("div");
+            let divFoto = document.createElement("div");
+            divFoto.setAttribute("class","foto")
+            let divIdent= document.createElement("div");
+            divIdent.setAttribute("class","ident");
+            let img=document.createElement("img");
+            img.setAttribute
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.dadosdemercado.com.br/api/docs#Lista%20de%20fundos
+https://dados.gov.br/dataset?res_format=API
+https://www.meteoblue.com/pt/tempo/historyclimate/climatemodelled/api_nepal_1283728
+
+
+
